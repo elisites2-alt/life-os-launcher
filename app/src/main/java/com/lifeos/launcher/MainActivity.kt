@@ -90,7 +90,7 @@ class MainActivity : Activity() {
             setTextColor(Color.WHITE)
             setHintTextColor(Color.LTGRAY)
             setPadding(18, 12, 18, 12)
-            background = rounded(panelColor, 20)
+            background = rounded(panelColor, 20f)
         }
         root.addView(
             searchBox,
@@ -204,7 +204,7 @@ class MainActivity : Activity() {
                 orientation = LinearLayout.HORIZONTAL
                 gravity = Gravity.CENTER_VERTICAL
                 setPadding(14, 12, 14, 12)
-                background = rounded(panelColor, 18)
+                background = rounded(panelColor, 18f)
             }
 
             val iconView = android.widget.ImageView(this).apply {
